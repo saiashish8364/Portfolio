@@ -1,0 +1,11 @@
+.name {
+  margin-top: 25%;
+  margin-left: 7.5%;
+  display: flex;
+  font-size: xx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navMenu {
+  margin-left: 0%;
+}

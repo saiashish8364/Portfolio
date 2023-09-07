@@ -1,0 +1,14 @@
+.aboutme {
+  display: flex;
+  font-size: 1.35rem;
+  line-height: 3rem;
+  margin-right: 10%;
+  font-weight: lighter;
+}
+.aboutcard {
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+  margin-left: 10px;
+  color: gray;
+}

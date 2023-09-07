@@ -1,0 +1,16 @@
+.picandmatter {
+  display: flex;
+  margin-top: 1px;
+  height: 350px;
+  width: 350px;
+}
+.breif {
+  margin-left: 35%;
+  font-size: 1.75rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.pos {
+  margin-left: 50%;
+  margin-top: 10%;
+}
