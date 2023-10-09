@@ -226,7 +226,7 @@ const MobileContactMe = () => {
               lg={12}
             >
               <a
-                href="https://drive.google.com/file/d/19EKWn9ZBHjncZKEwSgZO1qogNgW8ff7d/view?usp=sharing"
+                href="https://www.snapit.tech/ashish8364/polu-sai-ashish"
                 target="_blank"
                 rel="noreferrer"
                 style={{

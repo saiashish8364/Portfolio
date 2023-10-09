@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Skill from "../../Icons/command.png";
-import clogo from "../../SkillIcons/c-logo.png";
+import PyLogo from "../../SkillIcons/python.png"
 import Java from "../../SkillIcons/java.png";
 import HTML from "../../SkillIcons/html.png";
 import CSS from "../../SkillIcons/cascading-style-sheets.png";
@@ -105,7 +105,7 @@ const MobileSkills = () => {
             lg={4}
           >
             <img
-              src={Java}
+              src={PyLogo}
               alt="C-logo"
               style={{ width: "100px", height: "100px" }}
             />
@@ -119,7 +119,7 @@ const MobileSkills = () => {
             lg={4}
           >
             <img
-              src={clogo}
+              src={Java}
               alt="C-logo"
               style={{ width: "100px", height: "100px" }}
             />

@@ -36,7 +36,7 @@ const AboutMe = () => {
               <p
                 style={{
                   borderBottom: " 2px solid white",
-                  width: "150px",
+                  width: "200px",
                   marginLeft: "8%",
                 }}
               ></p>

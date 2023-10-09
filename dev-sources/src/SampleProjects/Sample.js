@@ -28,7 +28,7 @@ const Sample = () => {
                 alt="Project"
                 style={{ width: "35px", height: "30px", marginRight: "10px" }}
               />
-              Sample Projects {"--->"}
+              Personal Projects {"--->"}
             </p>
             <p
               style={{

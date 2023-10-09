@@ -34,7 +34,7 @@ const MobileIntro = () => {
                     color: "white",
                   }}
                 >
-                  Polu Sai Ashish.
+                  Polu Sai Ashish
                 </p>
               </Col>
               <Col xs={3} md={3} lg={3}>
@@ -45,10 +45,14 @@ const MobileIntro = () => {
               <p
                 style={{
                   color: "white",
-                  marginTop: "-5px",
+                  marginTop: "-15px",
+                  
                 }}
               >
-                Frontend Developer.
+                Frontend Developer
+                
+              </p>
+              <p>
                 <span style={{ color: "grey" }}>
                   Passionate developer with a Computer Science background and a
                   keen interest in compelling user interfaces.
@@ -113,7 +117,7 @@ const MobileIntro = () => {
                   color: "lightgreen",
                 }}
               >
-                Intro
+                Who Am I?
               </p>
             </div>
           </Col>
@@ -122,12 +126,8 @@ const MobileIntro = () => {
               <p
                 style={{
                   marginTop: "5px",
-                  marginLeft: "15px",
                   fontSize: "1rem",
-                  lineHeight: "1rem",
                   color: "white",
-                  display: "flex",
-                  textAlign: "left",
                 }}
               >
                 I was born and raised in Warangal, where I grew up in the heart

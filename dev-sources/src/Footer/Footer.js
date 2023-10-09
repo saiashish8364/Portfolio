@@ -91,7 +91,7 @@ const Footer = () => {
             </p>
             <p>
               <a
-                href="https://drive.google.com/file/d/19EKWn9ZBHjncZKEwSgZO1qogNgW8ff7d/view?usp=sharing"
+                href="https://www.snapit.tech/ashish8364/polu-sai-ashish"
                 target="_blank"
                 rel="noreferrer"
               >

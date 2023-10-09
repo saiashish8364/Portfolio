@@ -5,7 +5,7 @@ import lap from "../Icons/laptop.png";
 import { Container, Row, Image, Col } from "react-bootstrap";
 const Intro = () => {
   const imageStyle = {
-    marginLeft: "35%",
+    marginLeft: "50%",
     width: "350px",
     height: "350px",
   };
@@ -15,10 +15,10 @@ const Intro = () => {
       <div style={{ height: "124px" }}></div>
       <Container fluid className={classes.picandmatter}>
         <Row>
-          <Col xs={12} md={3} lg={3} xl={3} xxl={3}>
+          <Col  lg={2} xl={2} xxl={2}>
             <Image src={profilePic} roundedCircle style={imageStyle} />
           </Col>
-          <Col xs={10} md={9} lg={9} xl={9} xxl={9}>
+          <Col  lg={10} xl={10} xxl={10}>
             <div className={classes.breif}>
               <p
                 style={{
@@ -36,16 +36,19 @@ const Intro = () => {
                   marginTop: "-2%",
                 }}
               >
-                Polu Sai Ashish.
+                Polu Sai Ashish
               </p>
 
               <p
                 style={{
                   color: "white",
-                  marginTop: "-5%",
+                  marginTop: "-2.5%",
                 }}
               >
-                Frontend Developer.
+                Frontend Developer
+                
+              </p>
+              <p>
                 <span style={{ color: "grey" }}>
                   Passionate developer with a Computer Science background and a
                   keen interest in compelling user interfaces.
@@ -92,39 +95,45 @@ const Intro = () => {
       </Container>
       <Container>
         <Row>
-          <Col xs={4} md={4} lg={4} xl={6} xxl={6}>
+          <Col  lg={12} xl={12} xxl={12}>
             <div
               style={{
                 display: "flex",
                 marginTop: "95px",
                 alignItems: "center",
+                justifyContent:"space-evenly"
               }}
             >
               <p
                 style={{
                   borderBottom: " 2px solid white",
-                  width: "150px",
-                  marginLeft: "200px",
+                  width: "200px",
                   color: "darkgrey",
                 }}
               ></p>
               <p
                 style={{
-                  marginLeft: "10%",
-                  fontSize: "1.5rem",
+                  fontSize: "1.85rem",
                   fontWeight: "bold",
                   color: "lightgreen",
                 }}
               >
-                Intro
+                Who Am I?
               </p>
+              <p
+                style={{
+                  borderBottom: " 2px solid white",
+                  width: "200px",
+                  
+                  color: "darkgrey",
+                }}
+              ></p>
             </div>
           </Col>
-          <Col xs={8} md={8} lg={8} xl={6} xxl={6}>
+          <Col lg={12} xl={12} xxl={12}>
             <div>
               <p
                 style={{
-                  marginTop: "150px",
                   fontSize: "1.35rem",
                   lineHeight: "3rem",
                 }}

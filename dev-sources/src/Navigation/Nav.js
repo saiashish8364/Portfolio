@@ -6,8 +6,10 @@ const NavBarMenu = () => {
     <>
       <Navbar bg="black" data-bs-theme="dark">
         <Container fluid="md">
+          <NavLink href="/">
           <Navbar.Brand>
             <h2 className={classes.name}>
+              
               <p
                 style={{
                   color: "grey",
@@ -20,7 +22,7 @@ const NavBarMenu = () => {
                 }}
               >{`}`}</p>
             </h2>
-          </Navbar.Brand>
+          </Navbar.Brand></NavLink>
           <Nav
             className="me-auto"
             style={{
